@@ -2,12 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Mulish', 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-body {
+html {
     overflow-x: hidden;
 }
+
+body {}
 
 .bg-afex-gradient {
     background-image: linear-gradient(to right bottom, #d21f25, #d62026, #da2127, #de2228, #e22329, #df2126, #dc1f24, #d91d21, #ce171a, #c31014, #b9080d, #ae0006);
@@ -46,6 +48,75 @@ body {
     border: none
 }
 
+.color-cont,
+.color-cont-1 {
+    position: absolute;
+    top: 10%;
+    min-height: 30vh;
+}
+
+.color-cont-1 {
+    top: 20vh;
+    right: 10vh;
+}
+
+.color-cont>.items,
+.color-cont-1>.items {
+    position: relative;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+}
+
+.n1,
+.n3,
+.n4,
+.n5,
+.n6 {
+    bottom: 20%;
+    width: 15vh;
+    height: 15vh;
+    padding: 5px;
+}
+
+.n1 {
+    right: 2rem;
+    cursor: pointer;
+}
+
+.n1:hover {
+    border: 5px solid tomato;
+    color: tomato;
+}
+
+.n2 {
+    width: 25vh;
+    height: 25vh;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    right: -3rem;
+}
+
+.n2>img {
+    width: 60%;
+    height: fit-content;
+}
+
+.n3 {
+    bottom: -3rem;
+}
+
+.n4 {
+    top: -2rem;
+    right: 4rem;
+}
+
+.n6 {
+    bottom: -2.5rem;
+    right: 8rem;
+}
+
 .brand-logo {
     height: 2rem !important;
 }
@@ -71,8 +142,8 @@ header {
 }
 
 .market-data-btn {
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    top: 60%;
     /* height: 450px; */
     /* bottom: 0; */
     left: -2.8rem;
@@ -91,4 +162,46 @@ header {
     border-radius: 30px;
     border: none;
     font-weight: 600;
+}
+
+
+/* section 2 */
+
+.section2 {
+    min-height: 639px;
+    background: #f9f9f9;
+    background-image: url('../img/section2-bg.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.section2 h2 {
+    font-size: 34px;
+    font-weight: 700 !important;
+}
+
+.section-card>h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.section-card {
+    /* background-color: #f9f9f9; */
+    z-index: 90;
+}
+
+
+/* section3 */
+
+.section3 {
+    background: #fff;
+    background-size: auto;
+    background-image: url('../img/header-flex.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 700px;
+}
+
+.section3-card {
+    display: flex;
 }
