@@ -64,7 +64,7 @@ header {
 }
 
 .hero {
-    background-image: url("header-flex.svg");
+    background-image: url("../img/header-flex.svg");
     min-height: 100vh;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     position: relative;
