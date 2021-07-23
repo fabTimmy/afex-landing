@@ -193,8 +193,8 @@ header {
 
 /* section3 */
 
-.section3 {
-    background: #fff;
+.section3,
+.section4 {
     background-size: auto;
     background-image: url('../img/header-flex.svg');
     background-repeat: no-repeat;
@@ -202,6 +202,11 @@ header {
     min-height: 700px;
 }
 
-.section3-card {
-    display: flex;
+.section4 {
+    background: #F2F2F2 !important;
+    background-image: url('../img/header-flex.svg');
+}
+
+.sec3-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
