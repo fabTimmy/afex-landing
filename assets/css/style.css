@@ -68,6 +68,10 @@ body {}
     background-color: #fff;
 }
 
+.shade {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 .n1,
 .n3,
 .n4,
@@ -207,6 +211,44 @@ header {
     background-image: url('../img/header-flex.svg');
 }
 
+.section5 {
+    background-size: auto;
+    background-image: url('../img/bg-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 700px;
+}
+
+.section6 {
+    background-color: #282828;
+    background-blend-mode: multiply;
+    background-size: auto;
+    background-image: url('../img/bg-afexValue.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 700px;
+}
+
 .sec3-card {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-svg {
+    width: 5rem;
+}
+
+.border-card {
+    background-color: #fff;
+    min-height: 15rem;
+    border-radius: 80px 80px 0 80px;
+}
+
+.border-card-flip {
+    background-color: #fff;
+    min-height: 15rem;
+    border-radius: 80px 80px 80px 0px;
+}
+
+footer {
+    min-height: 30vh;
 }
