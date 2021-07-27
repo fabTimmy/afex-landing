@@ -293,6 +293,48 @@ header {
     margin: 0 auto;
 }
 
+.min-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 3px;
+    min-width: 80%;
+}
+
+.min-card img {
+    height: 3rem;
+}
+
+.min-card span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.min-card h4 {
+    font-size: 16px;
+}
+
+.min1 {
+    background-color: #d21f25;
+}
+
+.min2 {
+    background-color: #D6A84F;
+}
+
+.min3 {
+    background-color: #DE4F39;
+}
+
+.min4 {
+    background-color: #952A45;
+}
+
+.min5 {
+    background-color: #B78C40;
+}
+
 footer {
     min-height: 30vh;
 }
