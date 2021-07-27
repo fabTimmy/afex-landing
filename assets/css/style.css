@@ -225,6 +225,10 @@ header {
     min-height: 700px;
 }
 
+.section_hand {
+    background: #F9F9F9
+}
+
 .section4 {
     background: #F2F2F2 !important;
     background-image: url('../img/header-flex.svg');
