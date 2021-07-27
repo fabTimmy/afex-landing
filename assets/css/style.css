@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .bg-afex-gradient {
@@ -281,7 +281,7 @@ header {
 }
 
 .about_svg {
-    min-width: 0.2rem
+    min-width: 0.2rem;
 }
 
 .xwoman {
