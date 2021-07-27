@@ -9,7 +9,9 @@ html {
     overflow-x: hidden;
 }
 
-body {}
+body {
+    /* overflow-x: hidden; */
+}
 
 .bg-afex-gradient {
     background-image: linear-gradient(to right bottom, #d21f25, #d62026, #da2127, #de2228, #e22329, #df2126, #dc1f24, #d91d21, #ce171a, #c31014, #b9080d, #ae0006);
@@ -29,6 +31,10 @@ body {}
 
 .bg-afex-grey-100 {
     background: #5B5A60;
+}
+
+.title-text {
+    font-weight: 700;
 }
 
 .navbar-nav>a {
@@ -138,6 +144,18 @@ header {
     vertical-align: middle;
 }
 
+.sec {
+    min-height: 100vh;
+}
+
+.sec_vision {
+    background-color: #fff;
+    background: url('../img/bg-lines-vision.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .hero {
     background-image: url("../img/header-flex.svg");
     min-height: 100vh;
@@ -177,6 +195,7 @@ header {
     background-image: url('../img/section2-bg.svg');
     background-repeat: no-repeat;
     background-position: right;
+    background-size: auto;
 }
 
 .section2 h2 {
@@ -229,6 +248,14 @@ header {
     min-height: 700px;
 }
 
+._section3 {
+    background-size: cover;
+    background-image: url('../img/SDGs.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 700px;
+}
+
 .sec3-card {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -247,6 +274,23 @@ header {
     background-color: #fff;
     min-height: 15rem;
     border-radius: 80px 80px 80px 0px;
+}
+
+.about_svg {
+    min-width: 0.2rem
+}
+
+.xwoman {
+    min-width: 50%;
+}
+
+.close-cont {
+    background-image: url('../img/close-rect.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    max-width: 40%;
+    margin: 0 auto;
 }
 
 footer {
